@@ -1,14 +1,217 @@
+/* css reset */
 *{
   margin : 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.row1{
-  background : purple;
-  height : 1000px;
-  width : 100%;
+body{
+  font-family : comfortaa;
 }
+
+.row1{
+  background-color: blue;
+  color : black;
+  text-align: center;
+  height: 75px
+}
+.email{
+  width:35%;
+  float: left;
+  background-color: red;
+  margin-left: 10%;
+}
+.phone{
+  width:35%;
+  float: left;
+  margin left: 10%;
+}
+
+.logo{
+  background-color: green;
+  height : 100px;
+  width : 600px;
+  margin : 10px;
+  text-align : center;
+  border-radius: 50px;
+}
+
 .row2{
-  
+  background-color: green;
+  height : 175;
+  text-align: center;
+}
+
+.row3{
+  background-color: green;
+  height : 90px;
+}
+
+.navBtn{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+  text-align : center;
+  margin:  30px;
+  background-color: green;
+  border-radius: 25px;
+}
+
+.contact__para{
+  text-align: center;
+  width:100%;
+  font-size: 22px;
+  color: black;
+  background: red;
+  height: 800px;
+}
+.formText{
+  border-radius: 25px;
+}
+.location{
+  border-radius: 25px;
+}
+.reason{
+  border-radius: 25px;
+  height: 200px;
+  font-size: 22px
+}
+.nature{
+  border-radius: 25px;
+}
+.mesage{
+  border-radius: 25px;
+}
+.article{
+  width:45%;
+  height: 370px;
+  float:left;
+  margin-left: 10%;
+  background-color: green;
+  margin: 30px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 25px;
+}
+.locations{
+  text-align: left;
+  padding-left: 50px;;
+}
+
+.book{
+  text-align: left;
+  width:45%;
+  height: 370px;
+  background-color: blue;
+  float: left;
+  margin: 30px;
+  border-radius: 25px;
+}
+
+.formText, .location{
+  width: 250px;
+  height: 35px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+form{
+  border : 1px solid black;
+  margin : 10px auto;
+  width: 40%;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.submitBtn {
+  width: 250px;
+  height : 50px;
+  background: #4a412a;
+  color : white;
+  font-size:22px;
+  text-align: center;
+  border-radius: 25px;
+  margin-left: 30%;
+  margin-top: 15px;
+}
+.message{
+  font-size: 22px;
+  width: 500px;
+}
+.category {
+  margin-left : 15px;
+  margin-top: 60px;
+  border : 1px solid blue;
+}
+
+.homePage{
+  height : 300px;
+  width : 95%;
+  margin : 10px;
+  text-align : center;
+  border-radius: 25px;
+}
+.product{
+  text-align: center;
+  float: left;
+  width:20%;
+}
+.servicesTooth1{
+  height : 400px;
+  width: 300px;
+}
+.servicesTooth2{
+  height : 400px;
+  width: 300px;
+}
+.servicesTooth3{
+  height : 400px;
+  width: 300px;
+}
+.servicesTooth4{
+  height : 400px;
+  width: 300px;
+}
+.col{
+  width : 20%;
+  /* background: pink; */
+  /* height : 450px; */
+  margin : 0.5% 1.5%;
+  float : left;
+  border-radius: 25px;
+  text-align: center;
+}
+
+footer{
+  background: green;
+  height: 220px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footCon{
+  height: 165px;
+  width: 500px;
+  float: left;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 50px;
+  margin: 25px;
+  margin-left: 100px;
+  border-radius: 25px;
+  background-color: blue;
+}
+.openHours{
+  font-size: 16px;
+  height: 165px;
+  width: 500px;
+  float: left;
+  margin: 25px;
+  margin-left: 100px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 50px;
+  border-radius: 25px;
+  background-color: blue;
 }

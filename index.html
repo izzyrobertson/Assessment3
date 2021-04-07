@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Assessment 3</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="">
+    <div class ="container">
+
+    <header class="top">
       <div class="container">
         <div class="row1">
           <h1>Contact details</h1>
+          <div class="email">
+            <h2> Email : 270112252@yoobeestudent.ac.nz </h2>
+          </div>
+          <div class="phone">
+            <h2> Phone : 04 420 422 </h2>
+          </div>
         </div>
         <div class="row2">
           <img class="logo" src="images/logo.svg" alt="Logo">
@@ -19,19 +27,172 @@
           <button id="homeNav" class="navBtn" type="button" name="button">Home</button>
           <button id="servicesNav" class="navBtn" type="button" name="button">Services</button>
           <button id="bookNav" class="navBtn" type="button" name="button">Book</button>
-          <button id="locationsNav" class="navBtn" type="button" name="button">Locations</button>
+          <button id="locationspageNav" class="navBtn" type="button" name="button">Locations</button>
           <button id="contactNav" class="navBtn" type="button" name="button">Contact</button>
-          display block
         </div>
       </header>
 
-        <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
-    <script src="js/script.js">
+    <main>
+      <section id="home" class="section">
+        <div class="contact__para">
+      <!-- contact form section -->
+      <form class="book" action="index.html" method="post">
+        <h2> Online Booking </h2>
+        <label for="userName">Your Name : </label>
+        <input  class="formText" type="text" id="userName" name="" value="">
+        <br>
+        <label for="userEmail">Your Email : </label>
+        <input  class="formText" type="text" id="userEmail" name="" value="">
+        <br>
+        <label for="location">Prefered practise :</label>
+        <select id="location" name="location" class="location">
+          <option value="wellington">Wellington</option>
+          <option value="petone">Petone</option>
+          <option value="lowerhutt">Lower Hutt</option>
+          <option value="newtown">New Town</option>
+        </select>
+        <br>
+        <label for="location"> Booking Reason :</label>
+        <select id="location" name="location" class="location">
+          <option value="checkup">Check Up</option>
+          <option value="braces">Braces</option>
+          <option value="crown">Crown</option>
+          <option value="yellowteeth">Yellow teeth</option>
+        </select>
+        <br>
+        <button class="submitBtn" type="button" name="button"> Book Now </button>
+      </form>
+      <article class="article">
+        <h2> Locations </h2>
+          <ul class="locations">
+            <li> Wellington | 139-141 Featherston Street Level 1 </li>
+            <li> Petone | 272 Jackson St </li>
+            <li> Lower Hutt | Level 1, 577 High Street </li>
+            <li> New Town | 125 Riddiford Street </li>
+          </ul>
+      </article>
+      <img class="homePage" src="images/homePage.jpg" alt="homePage">
+      </div>
+      </section>
 
-    </script>
+      <section id="services" class="section">
+        <h1> services </h1>
+        <section class="col">
 
-  </body>
+    <h2 class="product">Service 1</h2>
+    <article class="article">
+
+      <img class="servicesTooth1" src="images/servicestooth.jpg" alt="servicesTooth">
+
+      <p class="description">Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation
+         ullamco laboris nisi ut aliquip ex ea commodo
+         consequat. Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat
+           nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+
+    </article>
+  </section>
+
+
+  <section class="col">
+    <h2 class="product">Service 2</h2>
+    <article class="article">
+
+      <img class="servicesTooth2" src="images/servicestooth.jpg" alt="servicesTooth">
+      <p class="description">Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation
+         ullamco laboris nisi ut aliquip ex ea commodo
+         consequat. Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat
+           nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+
+    </article>
+  </section>
+
+  <section class="col">
+    <h2 class="product">Service 3</h2>
+    <article class="article">
+
+      <img class="servicesTooth3" src="images/servicestooth.jpg" alt="servicesTooth">
+      <p class="description">Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation
+         ullamco laboris nisi ut aliquip ex ea commodo
+         consequat. Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat
+           nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+
+          </article>
+    </section>
+    <section class="col">
+      <h2 class="product">Service 4</h2>
+      <article class="article">
+
+        <img class="servicesTooth4" src="images/servicestooth.jpg" alt="servicesTooth">
+        <p class="description">Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat
+             nulla pariatur. Excepteur sint occaecat cupidatat
+              non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.</p>
+
+            </article>
+      </section>
+  </section>
+
+      <section id="book" class="section cartRow clear">
+        <h1> book </h1>
+      </section>
+
+      <section id="locationspage" class="section">
+        <h1> locations </h1>
+      </section>
+
+      <section id="contact" class="section">
+        <h1> contact </h1>
+      </section>
+  </main>
+
+  </div>
+
+  <footer>
+    <ul class= "footCon" type=square>
+      <h1> Contact details </h1>
+      <li> Email : 270112252@yoobeestudent.ac.nz </li>
+      <li> Phone : 04 420 422 </li>
+    </ul>
+    <ul class=openHours type=square>
+      <h1> Open Hours </h1>
+      <li> Monday      8AM - 5PM </li>
+      <li> Tuesday     8AM - 5PM </li>
+      <li> Wednesday   8AM - 5PM </li>
+      <li> Thursday    8AM - 5PM </li>
+      <li> Friday      8AM - 5PM </li>
+      <li> Saturday    CLOSED </li>
+      <li> Sunday      CLOSED </li>
+    </ul>
+  </footer>
+
+  <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+  <script src="js/script.js"> </script>
+</body>
 </html>
